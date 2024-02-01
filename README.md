@@ -1,2 +1,2 @@
 # Jornada Python
- Exercicios e dicas de python 
+ Exercicios e dicas de python
