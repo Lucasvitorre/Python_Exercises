@@ -1,12 +1,3 @@
-#import random
-#nome1= input('Insira o nome dos alunos: ') 
-#nome2= input('Insira o nome dos alunos: ') 
-#nome3= input('Insira o nome dos alunos: ')
-#nome4= input('Insira o nome dos alunos: ')
-#nomes= [nome1,nome2,nome3,nome4]
-#aluno_esc= random.shuffle(nomes,k=4(nomes))
-#print(f'O aluno escolhido foi: {alu_esc}')
-
 import random
 
 # Solicitar os nomes dos alunos
