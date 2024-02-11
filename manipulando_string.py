@@ -21,7 +21,7 @@ frase[9:13:2]
 frase[9::3]
 
 ###-------------ANALISE-------------###
-#comprimento da frase
+#Quantidade de caracteres na frase
 len(frase)
 
 #contar a quantidade de letras: ('a','r')
@@ -36,7 +36,7 @@ frase.find('deo')
 'Curso' in frase
 
 ###-------------TRANSFORMAÇÃO--------------###
-#Alteração de palavras
+#Alteração de strings
 frase.replace('Python','Android')
 
 #TODAS MAIUSCULAS
