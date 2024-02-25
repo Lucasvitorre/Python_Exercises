@@ -24,13 +24,14 @@ frase[9::3]
 #Quantidade de caracteres na frase
 len(frase)
 
-#contar a quantidade de letras: ('a','r')
+#contar a quantidade de letras: ('a' ou 'r')
 frase.count('o')
 #faz fatiamento em conjunto com o count
 frase.count('o', 0,13)
 
-#Procurar conjunto de string dentro da variavel
+#Procurar (posição) conjunto de string dentro da variavel
 frase.find('deo')
+#resultado posição=  0,1,15
 
 #Valor boolean se há ou não a palavra na variavel.
 'Curso' in frase

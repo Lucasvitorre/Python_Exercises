@@ -1,3 +1,4 @@
 cid= input('Insira sua cidade: ')
-cid.split(' ')
+cid1= 'SANTO' in cid
 
+print(cid1)
