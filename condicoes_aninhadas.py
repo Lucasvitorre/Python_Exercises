@@ -5,7 +5,8 @@
 
 carro= input(str("Para qual direção o seu carro vai? "))
 if carro.esquerda():
-
+    print('OK')
 elif carro.direita():
-
-else
+    print('OK')
+else:
+    print('OK')
