@@ -9,7 +9,7 @@ print("""Escolha uma das bases para conversão:
 opcao = int(input("Sua opção: "))
 
 if opcao == 1:
-    print(f"{num1} convertido para BINÁRIO é igual a {bin,(num1)}")
+    print(f"{num1} convertido para BINÁRIO é igual a {bin(num1)}")
 
 elif opcao ==2:
     print(f"{num1} convertido para OCTAL é igual a {oct,(num1)}")
