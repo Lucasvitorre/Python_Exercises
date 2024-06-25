@@ -2,3 +2,4 @@
 
 print("LEITOR DE NÚMERO PRIMO")
 print("#"*20)
+
