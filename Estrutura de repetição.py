@@ -51,3 +51,15 @@ for c in range(0, 4):
     n = int(input("Digite um valor: "))
     s += n
 print(f"A soma dos números inseridos é de: {s}")
+
+#######################################################################################################################################################################################3
+#WHILE
+#CONTADOR CONDICIONAL AO VALOR DA VARIAVEL
+while not apple:
+    if chao:
+       passo
+    if vazio:
+       pule
+    if moeda:
+       pega
+pega
