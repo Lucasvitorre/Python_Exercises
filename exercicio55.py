@@ -14,5 +14,5 @@ for seq in range(1,6):
 
     print(14*"====")
 
-print(f"O maior peso lido foi:{maior}kg.")
-print(f"O menor peso lido foi:{menor}kg.")
+print(f"O maior peso lido foi: {maior}kg.")
+print(f"O menor peso lido foi: {menor}kg.")
