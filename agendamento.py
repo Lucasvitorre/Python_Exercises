@@ -18,11 +18,19 @@ while action != 4:
     action = int(input("Opção: "))
 
     if action == 1: 
-        data = int(input("Insira a Data: "))
+        data = int(input("Data: "))
         hora = int(input("Insira a hora: "))
         minuto= int(input("Insira os minutos: "))
-        if (data,hora,minuto) == True:
-            print("Teste")
+        print("Insira o que irá fazer: Ex: "Cabelo + Barba ou Cabelo" "))
+
+def create_event(service):
+    event= {
+        "summary": f"Agendamento {nome}",
+        "description": f"{modo}"
+        }
+
+   
+        print("Teste")
         #codigo de inclusao de um evento google calendar
 
     if action == 2:
