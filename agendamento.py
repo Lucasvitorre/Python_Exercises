@@ -21,9 +21,22 @@ while action != 4:
         data = int(input("Insira a Data: "))
         hora = int(input("Insira a hora: "))
         minuto= int(input("Insira os minutos: "))
+        if (data,hora,minuto) == True
+        #codigo de inclusao de um evento google calendar
 
     if action == 2:
         print("Vamos verificar se há a disponibilidade.")
         data = int(input("Insira a Data: "))
         hora = int(input("Insira a hora: "))
         minuto= int(input("Insira os minutos: "))
+        
+    if action == 3:
+        print("Você tem certeza, que deseja cancelar o seu horário?")
+        cancel = input("Insira SIM OU NAO: ")
+            if cancel == NAO:
+            print("Muito Obrigado pela preferência, aguardamos a sua visita!")
+            else:
+            #Codigo de exclusao do evento 
+            
+    if action == 4:
+    print("Obrigado por utilizar o sistema de agendamento!")
