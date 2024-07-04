@@ -4,12 +4,21 @@ import math
 print("PROGRAMA PARA VERIFICAR A MEDIA.")
 print("---*"*15)
 
-print("Insira o valor que de deseja:")
-num1 = int(input(""))
 
-while num1 !=0:
+num1 = []
+
+
+
+while num1 !=999:
+    print("Insira o valor que de deseja:")
     num1 = int(input(""))
     print("Você quer continuar?")
-    cause = input ("")
+    cause = input ("").upper()
+    
     if cause == "SIM":
-        print
+        print("---"*15)
+    elif cause == "Não":
+        quant = num1.count(int)
+        print(quant)
+    else:
+        print("Obrigado")
