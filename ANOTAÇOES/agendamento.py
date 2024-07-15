@@ -1,4 +1,6 @@
 from time import sleep
+from python.calendar-test import 
+
 
 print("----"*15)
 print("Bem vindo ao sistema de agendamento!!")
@@ -24,12 +26,6 @@ while action != 4:
         print("Insira o que irá fazer: Ex: (Cabelo + Barba ou Somente Cabelo) ")
         modo = str(input(" "))
 
-###def create_event(service):
-#    event= {
-#        "summary": f"Agendamento {nome}",
-##       "description": f"{modo}"
-##        }###
-
     if action == 2:
         print("Vamos verificar se há a disponibilidade.")
         data = int(input("Insira a Data: "))
@@ -47,3 +43,5 @@ while action != 4:
             
     if action == 4:
         print("Obrigado por utilizar o sistema de agendamento!")
+ 
+  
