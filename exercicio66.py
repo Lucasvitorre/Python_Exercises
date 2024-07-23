@@ -3,13 +3,12 @@
 # NO FINAL MOSTRE QUANTOS NÚMEROS FORAM DIGITADOS E QUAL FOI A SOMA ENTRE ELES.
 #(DESCONSIDERANDO A FLAG)
 
-n = s = 0
-q = len(str(while))
+n = s = c = 0
 while True:
     n = int(input("Insira o valor: "))
     if n == 999:
         break
     s+=n
-    
+    c+=1
 print(f"O valor da soma é: {s}")
-print(f"A quantidades de números inseridos é: {q}")
+print(f"A quantidades de números inseridos foi: {c}")
