@@ -6,7 +6,7 @@ resultado = tabuada * 1
 while True:
     tabuada= int(input("Qual tabuada você quer saber? "))
     print("-"*20)
-    print(f"{tabuada} x 1 = ")
+    for range
 
     if tabuada < 0:
         break
