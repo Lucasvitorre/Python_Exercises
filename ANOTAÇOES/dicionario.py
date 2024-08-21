@@ -1,3 +1,4 @@
+from funcoes import mostra_linha
 
 dados=dict()
 dados = {"nome":"Pedro","idade":"25"}  #INCLUINDO AS CHAVES MAIS VALORES 
@@ -7,7 +8,7 @@ print(dados)
 del dados["idade"] #COMANDO PARA EXCLUIR CHAVES 
 print(dados)
 
-print("")
+mostra_linha()
 filme = {
     "titulo":"Star Wars",
     "Ano":"1977",
@@ -16,7 +17,7 @@ filme = {
 print(filme.keys())
 print(filme.values())
 print(filme.items())
-print("")
+mostra_linha()
 
 # USANDO ITEMS
 for k, v in filme.items():
@@ -30,7 +31,8 @@ bras.append(est1)
 bras.append(est2)
 
 print(bras)
-print()
+
+mostra_linha()
 
 #OUTRO EXEMPLO
 estado = dict()
@@ -42,4 +44,4 @@ for c in range(0, 3):
     brasil.append(estado.copy()) # METODO DE COPIA DICIONARIO
 for e in brasil:
     for k,v in e.items():
-        print((f"O campo {k} tem valor {v}."end=""))
+        print(f"O campo {k} tem valor {v}.")
