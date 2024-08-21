@@ -1,4 +1,4 @@
-from funcoes import *
+from ANOTAÇOES.funcoes_fiap import *
 
 usuarios = {}
 opcao = perguntar()
