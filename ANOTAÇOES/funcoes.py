@@ -89,9 +89,25 @@ def somar(a,b,c=0): # Adicionar um parametro basta adicionar o operadorador dent
 somar(3,2,5)
 
 # ESCOPO DE VARIAVEIS
-def teste():
-    print(f"Na função teste, n vale {n}")
 
-n = 2
-print(f"No programa princial, n vale {n}")
+    #Variavel Global ela está fora de uma função, e consegue ser acessada em qualquer lugar do programa.
+    #Variavel Local está em uma função não é acessivel 
+#Para ignorar a criação de uma variavel nova local basta escrever da seguinte forma dentro de uma função:
+'''
+def teste(b):
+    global a 
+    a=8
+a=5
+    
+'''
 # RETORNO DE RESULTADOS
+def somar(a=0,b=0,c=0): # Adicionar um parametro basta adicionar o operadorador dentro da funcao
+    s = a+b+c
+    #Alterar o (print(f"A soma vale {s}")) para return
+    return s
+
+resp1 = somar(3,2,5)
+resp2 = somar(1,7)
+resp3 = somar(4)
+print(f" Meus Calculos deram {resp1}, {resp2}, {resp3}.")
+
