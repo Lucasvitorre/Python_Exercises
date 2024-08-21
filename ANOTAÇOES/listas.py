@@ -58,3 +58,30 @@ for c,v in enumerate(valores):
     print(f"Na posição {c} encontrei o valor {v}!")
 print("cheguei ao final da lista.")
 
+########### PARTE 2 ##########
+dados = list()
+dados.append("Joaquim")
+dados.append(26)
+
+#LISTA DENTRO DE LISTAS
+pessoasr= [dados[:]] # Cópia de uma lista
+pessoas = [["Pedro",25], ["Maria",19],["Joao",32]] ### lista dentro de lista
+
+print(pessoas[0][0]) #Pega o elemento 0 da lista composta e também o elemento 0 da lista
+print(pessoas[1]) #Pega o elemento 1 total da lista
+print("")
+#Estrura legal para utilizar
+for ex in pessoas:
+    print(ex[0])
+print("")
+print()
+#OUTRO EXEMPLO
+galera = list()
+dado = list()
+for c in range(0,3):
+    dado.append(str(input("Nome: ")))
+    dado.append(str(input("Idade: ")))
+    galera.append(dado[:])
+    dado.clear()
+
+print(galera[1])
