@@ -57,7 +57,8 @@ soma (8,9,10)
 # INTERACTIVE HELP
 ##
 ##   BASTA SOMENTE UTILIZAR A FUNÇÃO HELP() no python
-help(print) #direto no código
+
+ #help(print) #direto no código
 
 # DOCSTRINGS
 
