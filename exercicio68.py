@@ -6,9 +6,9 @@ qtd = 0  # Contador de vezes que o loop foi executado
 vitorias = 0  # Contador de vitórias
 
 while True:
-    user = int(input(f"{nome}, digite um número: "))
+    num = int(input(f"{nome}, digite um número: "))
     pc = random.randint(0, 20)
-    soma = user + pc
+    soma = num + pc
 
     escolha = input(str("Par ou Ímpar? [P/I]: ")).upper()
 
