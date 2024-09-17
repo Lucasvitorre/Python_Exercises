@@ -70,12 +70,15 @@ pessoas = [["Pedro",25], ["Maria",19],["Joao",32]] ### lista dentro de lista
 print(pessoas[0][0]) #Pega o elemento 0 da lista composta e também o elemento 0 da lista
 print(pessoas[1]) #Pega o elemento 1 total da lista
 print("")
+
 #Estrura legal para utilizar
 for ex in pessoas:
     print(ex[0])
 print("")
 print()
+
 #OUTRO EXEMPLO
+
 galera = list()
 dado = list()
 totmai = totmen = 0
@@ -92,4 +95,5 @@ for p in galera:
     else:
         print(f"{p[0]} é menor de idade.")
         totmen += 1
+
 print(f"Temos {totmai} maiores e {totmen} menores de idade")
